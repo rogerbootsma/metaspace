@@ -1,5 +1,6 @@
 :root {
-  --main:#ff4747 ;
+  --main:rgba(8, 111, 255, 0.9);
+  
 }
 .bg-main{
   background-color: var(--main) !important;
@@ -74,7 +75,8 @@ header .overlay {
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #C13D2E;
+  background: linear-gradient(rgba(8, 111, 255, 0.9), rgb(103, 247, 201));
+  /*color: #C13D2E;*/
   border: 1px solid #C13D2E;
 }
 #mainNav .navbar-toggler:focus {
@@ -89,6 +91,10 @@ header .overlay {
   color: fade(gray, 80%);
   outline: none;
   background-color: transparent;
+}
+
+.navbar-nav{
+  font-size: 20px;
 }
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
@@ -142,6 +148,7 @@ header .overlay {
 }
 
 .btn {
+  background: linear-gradient(rgba(8, 111, 255, 0.9), rgb(61, 144, 118));
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
   padding: 1.25rem 4rem;
   font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -159,7 +166,7 @@ header .overlay {
   
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: linear-gradient(rgba(8, 111, 255, 0.9), rgb(103, 247, 201));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
